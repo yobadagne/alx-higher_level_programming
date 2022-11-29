@@ -7,3 +7,5 @@ def uppercase(str):
         elif ord(c) == 8:
             c = chr(8)
             print ("{}".format(c))
+        else:
+            print("{}".format(c)))
