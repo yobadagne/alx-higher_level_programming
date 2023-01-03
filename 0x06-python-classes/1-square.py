@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-
 """Square Class
-A Square Class
-"""
 
+A Square Class
+
+
+"""
 
 class Square:
 
@@ -12,8 +13,9 @@ class Square:
 
         The __init__ method initializes the size value
         of the square.
+        
         Attributes:
-        size (int): The size of the square.
+            size (int): The size of the square.
         
         """
         self.__size = size
