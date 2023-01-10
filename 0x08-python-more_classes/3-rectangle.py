@@ -1,4 +1,8 @@
+nes (56 sloc)  1.91 KB
+
 #!/usr/bin/python3
+# 3-rectangle.py
+# Brennan D Baraban <375@holbertonschool.com>
 """Defines a Rectangle class."""
 
 
@@ -52,7 +56,7 @@ class Rectangle:
 
     def __str__(self):
         """Return the printable representation of the Rectangle.
-            Represents the rectangle with the # character.
+        Represents the rectangle with the # character.
         """
         if self.__width == 0 or self.__height == 0:
             return ("")
@@ -63,4 +67,3 @@ class Rectangle:
             if i != self.__height - 1:
                 rect.append("\n")
         return ("".join(rect))
-        
