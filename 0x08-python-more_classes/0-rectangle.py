@@ -1,15 +1,16 @@
 #!/usr/bin/python3
-""" 
+"""
 
-A module with a rectangle class that does nothing
+A module with a Rectangle that does nothing
 
 """
 
-class Rectangle:
-    """ 
-    
-    A rectanglr class
 
+class Rectangle:
     """
     
+    An empty Rectangle class
+    
+    """
+
     pass
