@@ -3,6 +3,7 @@
 # Usage: ./0-select_states.py <mysql username> \
 #                             <mysql password> \
 #                             <database name>
+""" this is a python command to select all states from a given database"""
 import sys
 import MySQLdb
 
