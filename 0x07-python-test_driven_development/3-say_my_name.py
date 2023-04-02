@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""Defines a name -printing function"""
+
+
 def say_my_name(first_name, last_name=""):
     """ Function that prints My name is <first name> <last name> """
     try:
