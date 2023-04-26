@@ -1,9 +1,10 @@
-#!/usr/bin/node
-// writing on  file
+#!/usr/nin/node
+// writng on a file
+const fPath = process.argv[2];
+const toWrite = process.argv[3];
 const fs = require('fs');
-fs.writeFile(process.argv[2],process.argv[3],'utf-8', function(error,data){
-if(error){
-	console.log(error)
-}	
+fs.writeFile(fPath, toWrite, 'utf-8', function (err, data) {
+  if (err) {
+    console.log(err);
+  }
 });
-
