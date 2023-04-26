@@ -1,4 +1,4 @@
-#!/usr/nin/node
+#!/usr/bin/node
 // writng on a file
 const fPath = process.argv[2];
 const toWrite = process.argv[3];
